@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="build_kafka" default="repack" basedir=".">
+	<target name="repack">
+		<copy file="target/kafka_jmeter-jar-with-dependencies.jar" todir="/Users/rockyjin/Downloads/apache-jmeter-3.0/lib/ext/" overwrite="true" />
+	</target>
+</project>
